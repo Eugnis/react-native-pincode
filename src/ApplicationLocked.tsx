@@ -200,12 +200,6 @@ class ApplicationLocked extends React.PureComponent<IProps, IState> {
                       this.props.timeToLock / 1000 / 60
                     )} minutes.`}
               </Text>
-              <Text
-                style={
-                  this.props.styleText ? this.props.styleText : styles.text
-                }>
-                Come back later and try again.
-              </Text>
             </View>
           )}
         </Animate>
